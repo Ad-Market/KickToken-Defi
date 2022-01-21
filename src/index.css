@@ -1,0 +1,24 @@
+body {
+  
+  /* background-color: darkslategrey; */
+  /* background-color: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);   */
+  background-image: linear-gradient(to right, #0004de 0%, #a200ff 100%);
+  
+  /* background-image: url(./assets/img/btc.jpg); */
+  margin: 0;
+  font-family: cursive;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media only screen and (max-width:550px) {
+  body{
+    font-family: 'Times New Roman', Times, serif !important;
+  }
+}
